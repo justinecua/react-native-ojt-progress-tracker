@@ -429,7 +429,7 @@ const HomeScreen = () => {
                 </View>
               </View>
               <View style={styles.progressLabelContainer}>
-                <Text style={styles.progressLabel}>Progress</Text>
+                <Text style={styles.progressLabel}>OJT Progress</Text>
               </View>
             </View>
 
