@@ -17,6 +17,7 @@
     "react": "19.0.0",
     "react-native": "0.78.1",
     "react-native-calendars": "^1.1310.0",
+    "react-native-make": "^1.0.1",
     "react-native-svg": "^15.11.2"
   },
   "devDependencies": {

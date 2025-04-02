@@ -461,8 +461,13 @@ const App = () => {
                 borderRadius: 10,
               }}>
               <Text
-                style={{fontSize: 18, fontWeight: 'bold', textAlign: 'center'}}>
-                Add Time for {selectedDate}
+                style={{
+                  fontSize: 18,
+                  fontWeight: 'bold',
+                  textAlign: 'center',
+                  color: '#51459d',
+                }}>
+                {format(new Date(selectedDate), 'MMMM d, yyyy')}
               </Text>
 
               {/* Morning Time - In and Out Pickers */}
